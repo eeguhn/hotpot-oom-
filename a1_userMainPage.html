@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Ding Huo Guo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('a1_userMainPage.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        #logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        #logo {
+            width: 85px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        #company-name {
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-top: -5px;
+        }
+
+        #nav {
+            display: flex;
+        }
+
+        #nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+            transition: color 0.3s;
+        }
+
+        #nav a:hover {
+            color: #ff4848;
+        }
+
+        .middle-section {
+            text-align: center;
+            margin-top: 60px;
+            margin-left: 200px;
+            margin-right: 200px;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 70%;
+            padding: 40px;
+            border-radius: 6px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .middle-section p {
+            margin-bottom: 25px;
+        }
+
+        #order-btn {
+            background-color: #ce3939;
+            color: #ffffff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+
+        #order-btn:hover {
+            background-color: #ff0000; 
+        }
+
+        #contact-info {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px; 
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9em; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div id="logo-container">
+            <img id="logo" src="img/logo.jpg">
+            <span id="company-name">LONG DING HUO GUO</span>
+        </div>
+
+        <nav id="nav">
+            <a href="a5_userAboutUsPage.html">ABOUT US</a>
+            <a href="a7_userReservationPage.html">RESERVATION</a>
+            <a href="a6_userFAQs.html">FAQS</a>
+        </nav>
+    </header>
+
+    <div class="middle-section">
+        <h2>WELCOME TO LONG DING HUO GUO</h2>
+        <p>Welcome to Long Ding Huo Guo! Dive into a unique hotpot experience where fresh ingredients meet flavorful broths. Whether you're a seasoned hotpot lover or a first-timer, our inviting ambiance and premium selections promise a memorable dining journey. Join us for a delightful feast at Long Ding Huo Guo!</p>
+        <a id="order-btn" href="a2_userMenuPage.html">ORDER NOW</a>
+    </div>
+
+    <div id="contact-info">
+        <p>E M A I L : example@example.com</p>
+        <p>A D D R E S S : 123 Main Street, City</p>
+        <p>F A C E B O O K : facebook.com/longdinghuoguo</p>
+        <p>I N S T A G R A M : @longdinghuoguo</p>
+        <p>@ 2023 Long Ding Huo Guo SDN BHD ALL RIGHTS RESERVED</p>
+    </div>
+
+</body>
+</html>
