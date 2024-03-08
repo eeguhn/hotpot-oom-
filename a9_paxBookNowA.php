@@ -165,22 +165,22 @@
     <h1>Booking</h1>
 
     <h3>Full name</h3>
-    <input type="text" name="name" id="name" pattern="[a-zA-Z][a-zA-Z ]+">
+    <input type="text" name="name" id="name" pattern="[a-zA-Z][a-zA-Z ]+" required>
 
     <h3>Contact Number</h3>
-    <input type="tel" name="tel" id="tel" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$">
+    <input type="tel" name="tel" id="tel" pattern="^(\+?6?01)[0-46-9]-*[0-9]{7,8}$" required>
 
     <h3>Email</h3>
-    <input type="email" name="email" id="email" pattern="/^[a-zA-Z0-9. _-]+@[a-zA-Z0-9. -]+\. [a-zA-Z]{2,4}$/">
+    <input type="email" name="email" id="email" pattern="/^[a-zA-Z0-9. _-]+@[a-zA-Z0-9. -]+\. [a-zA-Z]{2,4}$/" required>
 
     <h3>Choose number of people</h3>
-    <input type="number" name="NumOfP" id="NumOfP">
+    <input type="number" name="NumOfP" id="NumOfP" required>
 
     <h3>Date</h3>
-    <input type="date" name="date" id="date">
+    <input type="date" name="date" id="date" required>
 
     <h3>Time</h3>
-    <input type="time" name="time" id="time">
+    <input type="time" name="time" id="time" required>
 
     <br>
     <br>
